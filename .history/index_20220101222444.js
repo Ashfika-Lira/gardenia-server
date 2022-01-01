@@ -23,7 +23,6 @@ async function run() {
         // const userReview = database.collection('user_review');
         // const userOrder = database.collection('user_order');
 
-        
         // Get Products API
         app.get('/products', async (req, res) => {
             const cursor = productCollection.find({});
